@@ -27,7 +27,7 @@ def master_clean(text):
     lines = [line.strip() for line in text.split('\n')]
     return '\n'.join(lines).strip()
 
-def run_pipeline(input_folder="..", output_folder="processed"):
+def run_pipeline(input_folder="./data/raw", output_folder="./data/processed"):
     output_path = Path(output_folder)
     output_path.mkdir(exist_ok=True)
 

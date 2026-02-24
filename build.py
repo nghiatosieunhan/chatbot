@@ -87,7 +87,7 @@ def main():
         breakpoint_threshold_amount=95
     )
     if not os.path.exists(DATA_DIR):
-        print(f"❌ Thư mục không tồn tại: {DATA_DIR}")
+        print(f"No folder {DATA_DIR} exist.")
         return
 
     files = [f for f in os.listdir(DATA_DIR) if f.endswith(('.md', '.txt'))]
