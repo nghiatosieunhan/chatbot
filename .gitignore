@@ -3,10 +3,7 @@ baocao/
 .env
 
 # Tránh up dữ liệu nặng/nhạy cảm
-datas/
 vectorstore/
-
-data/processed/
 test/
 # File rác của Python & Hệ thống
 __pycache__/
