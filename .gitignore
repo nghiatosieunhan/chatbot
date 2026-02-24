@@ -1,6 +1,6 @@
 # Tránh lộ API Key
 baocao/
-.env
+
 
 # Tránh up dữ liệu nặng/nhạy cảm
 vectorstore/
